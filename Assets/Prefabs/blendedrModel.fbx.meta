@@ -1,0 +1,1374 @@
+fileFormatVersion: 2
+guid: b6cbda278127fac498d8a07756238ac3
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00000-texture
+    second: {fileID: 2800000, guid: d971e7432bf42b44f95023e12b913ff8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00001-texture
+    second: {fileID: 2800000, guid: 5dc47be8ae14fa84a9e5ba9925f5e470, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00005-texture
+    second: {fileID: 2800000, guid: bbbc7a6ee193b414c8a1a416d781f036, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00006-texture
+    second: {fileID: 2800000, guid: 82ebd4408a1486541b6030e0bbda9c87, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00007-texture
+    second: {fileID: 2800000, guid: bc2f13788f4e6384b858069bf64e9212, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00008-texture
+    second: {fileID: 2800000, guid: c7b42333c3e4d5046a657c7b2a540f4e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00009-texture
+    second: {fileID: 2800000, guid: 56b3d3792aa561e4fa286e6fd645b590, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00010-texture
+    second: {fileID: 2800000, guid: 1bb1e363df59110449c018258d889c07, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00011-texture
+    second: {fileID: 2800000, guid: 97aa16df226f74f4fa6f8af9cac9cca6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00012-texture
+    second: {fileID: 2800000, guid: 7304cfa766c58ec4d8e5c7c9edc49e2c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00025-texture
+    second: {fileID: 2800000, guid: aea5565b2dda8f444b91c1fc203d9e2d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00038-texture
+    second: {fileID: 2800000, guid: 6b29f7a14d964b24e90c1f3527dbea2e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00039-texture
+    second: {fileID: 2800000, guid: 88fc1fd73f2dd0443ba8a7ff92657523, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00040-texture
+    second: {fileID: 2800000, guid: 296be7c8f60ac0f4997ec76d01104f26, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00041-texture
+    second: {fileID: 2800000, guid: 4cfaafa054304804a95aa1e0288d69e0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00043-texture
+    second: {fileID: 2800000, guid: f96d45bc39c2d494aa54b60449115aec, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00044-texture
+    second: {fileID: 2800000, guid: ae73dfe5cc75b0744923ab7528a8bf68, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00047-texture
+    second: {fileID: 2800000, guid: 77ad63e3666c5d243b869f994c52dd33, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00049-texture
+    second: {fileID: 2800000, guid: 5703280c75c0c7c4a963a5ddb26015dc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00050-texture
+    second: {fileID: 2800000, guid: 303e12c4de23fd64bae71fe398edcf50, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00051-texture
+    second: {fileID: 2800000, guid: 6b7e83cc3a7a0d848a7757071dbbf752, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00052-texture
+    second: {fileID: 2800000, guid: 4ed0db4df396e5d4ab35c268d99d08ca, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00055-texture
+    second: {fileID: 2800000, guid: cd744740760c88b46b966d84beacb83d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00056-texture
+    second: {fileID: 2800000, guid: 947be6d54af050a488d17bb1bc649e16, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00057-texture
+    second: {fileID: 2800000, guid: 9b95c4ce455c32648a0b0dfad593d6f5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00060-texture
+    second: {fileID: 2800000, guid: c75be4e1215efd34f87de0e85b9db290, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00064-texture
+    second: {fileID: 2800000, guid: f706604d9f959d94d9dd20381d011785, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00065-texture
+    second: {fileID: 2800000, guid: 14d73d39bcdad4843aa55bd9f738935f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00066-texture
+    second: {fileID: 2800000, guid: a5ce125ea27bdb546b5a52e7f4fcabd5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00067-texture
+    second: {fileID: 2800000, guid: 75fe37c51f9b92849a0b274d15e99382, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00068-texture
+    second: {fileID: 2800000, guid: 8469a89036a35c34ca1f2639fce16d80, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00069-texture
+    second: {fileID: 2800000, guid: e2fcedde44d2dc54baeb33b17deb1d77, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00072-texture
+    second: {fileID: 2800000, guid: 9e66bbafaab443b4783d97be14080fd8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00073-texture
+    second: {fileID: 2800000, guid: 2e98ac0fe85195442ba4e111254771b3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00081-texture
+    second: {fileID: 2800000, guid: fbb8f7c14f285794990661c60fc03de6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00082-texture
+    second: {fileID: 2800000, guid: 4f6f8476d72f4024382491894fe384fa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00084-texture
+    second: {fileID: 2800000, guid: c1f0c02eea05a4549b942bced4d6d5a0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00085-texture
+    second: {fileID: 2800000, guid: 38c891c4a96623f4cadfef9e89db67b3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00086-texture
+    second: {fileID: 2800000, guid: 50fbcbbf975745c469426a22dfe257a1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00087-texture
+    second: {fileID: 2800000, guid: 4cd3b54978f50a24e9f6e6117f47bf2e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00088-texture
+    second: {fileID: 2800000, guid: 1abfd21df1640b1448b30038b6bbd471, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00089-texture
+    second: {fileID: 2800000, guid: 10ffd27b8dae9e6469c05d2eb01d3c92, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00090-texture
+    second: {fileID: 2800000, guid: 61d4c7aa1e5e9f8469ca9e48c1d674d7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00091-texture
+    second: {fileID: 2800000, guid: c9e19e43cb2087e41b6889a0b6abdd5c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00092-texture
+    second: {fileID: 2800000, guid: 56a7ad135ba9b224ba8976a2d6368c03, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00093-texture
+    second: {fileID: 2800000, guid: 90790d75989bace4e8176009087e6446, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00094-texture
+    second: {fileID: 2800000, guid: 0c9cf72562d8a2b4499518ec9fd8df80, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00097-texture
+    second: {fileID: 2800000, guid: 9013293d01e3190488fc1996a7c7128f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00098-texture
+    second: {fileID: 2800000, guid: 5b69013192cd7f4428614de3049dee4e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00099-texture
+    second: {fileID: 2800000, guid: 70d0341120abeb94cb1c6b7a4f5d29c9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00100-texture
+    second: {fileID: 2800000, guid: 89f9c715106084e479fb73531e03d64e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00102-texture
+    second: {fileID: 2800000, guid: 8cf6540394ce5da4d9884530427d474a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00103-texture
+    second: {fileID: 2800000, guid: 488a048650bd1c748802a47964746044, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00104-texture
+    second: {fileID: 2800000, guid: bd13c79cae7130b4cbf1c9c7191afb17, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00105-texture
+    second: {fileID: 2800000, guid: e51b7d73ee77a1f47b1a742c37d2d945, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00106-texture
+    second: {fileID: 2800000, guid: 01de30b9889a75947b84820c717be56d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00107-texture
+    second: {fileID: 2800000, guid: 3dbd69fd652892044bd76c08091bf302, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00108-texture
+    second: {fileID: 2800000, guid: c3e3f8a80c83cfa4badf7ea371ef9638, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00109-texture
+    second: {fileID: 2800000, guid: 4df7db9c863532041b0229e4f7f490b6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00110-texture
+    second: {fileID: 2800000, guid: 09e44e0e30f208e4fa4016c33dca054d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00111-texture
+    second: {fileID: 2800000, guid: 155c878d609509b478320d9e8bdc45be, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00112-texture
+    second: {fileID: 2800000, guid: a1d4e673f4f31b848a09c51bcfd826f3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00113-texture
+    second: {fileID: 2800000, guid: 9f0f47c51b904194a9aa60a99caf0fd0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00114-texture
+    second: {fileID: 2800000, guid: e0ff779e4409dc641970741b43a1fd64, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00120-texture
+    second: {fileID: 2800000, guid: a3370ba977dd3154885f62516f2fb7fc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00129-texture
+    second: {fileID: 2800000, guid: c70d112478a45584aa8555b7dbf9c7be, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00130-texture
+    second: {fileID: 2800000, guid: 1e9a9260865fddf43b036fa0b0e330ca, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00131-texture
+    second: {fileID: 2800000, guid: 574c01f83f59c8c429756599b332dcd5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00132-texture
+    second: {fileID: 2800000, guid: 9b9ee0c41975d3c4eba5b56501f2cc34, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00133-texture
+    second: {fileID: 2800000, guid: ff628393b4f7e8e4cb493ec1f0683113, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00134-texture
+    second: {fileID: 2800000, guid: a1b92c20626293643822ffdbc2957df2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00135-texture
+    second: {fileID: 2800000, guid: 96d4a527fae871c4ca6c500e3714dd6a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00136-texture
+    second: {fileID: 2800000, guid: a148a1a95978c3e49908f657c5f1383f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00137-texture
+    second: {fileID: 2800000, guid: 7d46a26080bd212459346f3797aa8581, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00138-texture
+    second: {fileID: 2800000, guid: 4d803ba635652714da8dafeaded2c212, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00139-texture
+    second: {fileID: 2800000, guid: 441c300c3f734f0439ea188627f2ad73, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00144-texture
+    second: {fileID: 2800000, guid: d005e7b9675f17c4483e90684598d4eb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00145-texture
+    second: {fileID: 2800000, guid: afae223d7f50d15429358871ff6adb81, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00146-texture
+    second: {fileID: 2800000, guid: c55bec3f51727ef448bd8f4876fea1f3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00147-texture
+    second: {fileID: 2800000, guid: 0e4922da0ce99c24da4fd248afd03fd9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00148-texture
+    second: {fileID: 2800000, guid: 4748646417279d54db1346a60c0801ca, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00149-texture
+    second: {fileID: 2800000, guid: a19a323c0cb82aa4db25a5b75883cdb8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00150-texture
+    second: {fileID: 2800000, guid: 615826dc77e7c44488d1f0a7f102161a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00151-texture
+    second: {fileID: 2800000, guid: 93827c1e56391d345b10f8eb2a1f9b1c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00152-texture
+    second: {fileID: 2800000, guid: 5d009dd2fb988624791ef135d1f7f0de, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00153-texture
+    second: {fileID: 2800000, guid: e4cf2b89c41a38641b4ad1d003697a44, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00154-texture
+    second: {fileID: 2800000, guid: e11a96bb03139fe4cbbf99051f76537d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00155-texture
+    second: {fileID: 2800000, guid: d9e880ed9e853704b91662d8f20c8646, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00156-texture
+    second: {fileID: 2800000, guid: 1772b012c2532ba49a2255c7ea5157b3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00157-texture
+    second: {fileID: 2800000, guid: 0403e2dd74b01334bb58d25b58a20888, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00158-texture
+    second: {fileID: 2800000, guid: b00e43c3d5b591d44bd7ce80a41f037c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00159-texture
+    second: {fileID: 2800000, guid: 1e8a4c5999f12a142ad95411aaeb5572, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00160-texture
+    second: {fileID: 2800000, guid: 525fd6cc9c81ade4188e3f50398652f1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00161-texture
+    second: {fileID: 2800000, guid: 98defc322ed69d04f83b795270a56a0f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00162-texture
+    second: {fileID: 2800000, guid: 22279788e1e904b488d3d872fde9eab8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00163-texture
+    second: {fileID: 2800000, guid: 4e94febea6e5da04fae6f6c080b66206, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00164-texture
+    second: {fileID: 2800000, guid: 73e55d005026f784994b0e3d78209c31, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00165-texture
+    second: {fileID: 2800000, guid: 8f44e452d39777e48ba9722e26a7db96, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00166-texture
+    second: {fileID: 2800000, guid: c39ac02e39a1df3489af57782cb3ef88, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00169-texture
+    second: {fileID: 2800000, guid: d1a53c300e70b1640a6ab61d7d62b959, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00170-texture
+    second: {fileID: 2800000, guid: b7afaed144df9f441bdbe4ba0f5bd2a6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00171-texture
+    second: {fileID: 2800000, guid: ff848567610edd14da8ce86cdb0048fa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00172-texture
+    second: {fileID: 2800000, guid: 316dc861e1598ef48ba3f7d627979f8c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00185-texture
+    second: {fileID: 2800000, guid: bc30bab024768a149aec35a12028dcd6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00186-texture
+    second: {fileID: 2800000, guid: d4976c9c29994114db804acfb2ea7545, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00187-texture
+    second: {fileID: 2800000, guid: 04218a5f04f9cdd469554e70d4383f1e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00188-texture
+    second: {fileID: 2800000, guid: bafae7646d175534a82725432f2942e7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00189-texture
+    second: {fileID: 2800000, guid: 761383cc3bf57de47950de6c789997e2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00190-texture
+    second: {fileID: 2800000, guid: 9f30b10f0ea480249a087b30239dc731, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00191-texture
+    second: {fileID: 2800000, guid: ce4e671753f466740a0a806b9f174391, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00192-texture
+    second: {fileID: 2800000, guid: 0e8e51535ed30a04abe461d013b2be28, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00193-texture
+    second: {fileID: 2800000, guid: 4b4fe10316db44246a418b5cadaadbbe, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00194-texture
+    second: {fileID: 2800000, guid: 97e4898fcac8e4145a2111f1dc7e02d3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00195-texture
+    second: {fileID: 2800000, guid: bdfa4875663e4e54f9b3bf953aaca9bf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00196-texture
+    second: {fileID: 2800000, guid: 2abe6f61be13e8940901288c12647686, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00197-texture
+    second: {fileID: 2800000, guid: 173b9852f005d6a4e86f473451a2e128, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00198-texture
+    second: {fileID: 2800000, guid: f9c6d291fe064824bbc5f7b1054a717b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00199-texture
+    second: {fileID: 2800000, guid: cafa56264f846f24983bd246c03a849c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00200-texture
+    second: {fileID: 2800000, guid: 6fc65b29d7c37ab48a6b071a555a7bcf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00201-texture
+    second: {fileID: 2800000, guid: 0ee0cde7753e5424cb9fb764c104d4a4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00208-texture
+    second: {fileID: 2800000, guid: ac44af7bd598dcd4e87c5e758e99556d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00213-texture
+    second: {fileID: 2800000, guid: 2c780431c0a1f9f4fa244d87591ebe75, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00214-texture
+    second: {fileID: 2800000, guid: b2b2b68186ab5e0498e0593e34dd5b3d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00215-texture
+    second: {fileID: 2800000, guid: 2850d66ffe87a2747b61754ef620d379, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00216-texture
+    second: {fileID: 2800000, guid: 634127df613724847979ba3618081f77, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00217-texture
+    second: {fileID: 2800000, guid: 2f7de75c70111c444b0293a159cfc624, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00219-texture
+    second: {fileID: 2800000, guid: beb85f8ddd7185d4ba62c7f2af2dd81e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00220-texture
+    second: {fileID: 2800000, guid: 19e88a7e44f05d746a4c71170a17527f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00221-texture
+    second: {fileID: 2800000, guid: 906ca6298ffcc6a4f93b36a00478defa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00222-texture
+    second: {fileID: 2800000, guid: 645a593aa359a064588e78737f9b6f66, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00226-texture
+    second: {fileID: 2800000, guid: 2287e627218d9fc44a37c847a52ad7ad, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00227-texture
+    second: {fileID: 2800000, guid: 9b129a5c09c442b42826a87e7074b5e0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00228-texture
+    second: {fileID: 2800000, guid: cdd953407a5be54439d952beaac740ef, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00229-texture
+    second: {fileID: 2800000, guid: 2429f7e47f838034aa653d8a387b5330, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00230-texture
+    second: {fileID: 2800000, guid: 84c00435fddf434499ee86c0dbd7b87a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00231-texture
+    second: {fileID: 2800000, guid: 0987b7263c7f5c64facae12d42d6b78e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00232-texture
+    second: {fileID: 2800000, guid: 93b9f79adf31b394aa4af76760722a22, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00233-texture
+    second: {fileID: 2800000, guid: 922e5f0fc537f984984db9f0e856f42a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00234-texture
+    second: {fileID: 2800000, guid: a013b4703be00cd4498bf6a5407ecf20, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00235-texture
+    second: {fileID: 2800000, guid: 73d8c4cd5e075ab4f8bbcbccd706bd62, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00236-texture
+    second: {fileID: 2800000, guid: 6894de9113505ee47b7c39fab4f59ed0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00237-texture
+    second: {fileID: 2800000, guid: 02353f8df6213b4489f159f70fc821d9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00238-texture
+    second: {fileID: 2800000, guid: 1740ce07401b6854d8970cdbfe927fe6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00239-texture
+    second: {fileID: 2800000, guid: 18c01162e91909749817f81b4d954029, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00240-texture
+    second: {fileID: 2800000, guid: 88ec4fd3482945e46a3c6be33f8f871c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00241-texture
+    second: {fileID: 2800000, guid: 2cfc9c7d6f4ea4c4f9c20e7e45039cb6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00242-texture
+    second: {fileID: 2800000, guid: cc43bbf91facde7409fa72e0f1806869, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00243-texture
+    second: {fileID: 2800000, guid: d61ddaad18d44e0498a684535b43acf0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00244-texture
+    second: {fileID: 2800000, guid: 986dce4ee580a174cafa75de3ec95a5f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00245-texture
+    second: {fileID: 2800000, guid: 78ec0cf523a78714ca57988023c4dbf6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00246-texture
+    second: {fileID: 2800000, guid: 4675402f08047b7479282f5e79abb5f9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00247-texture
+    second: {fileID: 2800000, guid: 3c3b44ccd3ec09348bc7940dcccfab98, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00248-texture
+    second: {fileID: 2800000, guid: 5e655d0d7e86d8a44b0f72c8f40f992b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00249-texture
+    second: {fileID: 2800000, guid: 2f161841a3cbcb54abaaf5fad05ff374, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00250-texture
+    second: {fileID: 2800000, guid: 9a20b4cc3ed6d56438e4ad284b733869, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00268-texture
+    second: {fileID: 2800000, guid: e05a86e6ffb909b4f940ebdbad6e672c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00269-texture
+    second: {fileID: 2800000, guid: 6d244de24910b754c9ddab61b27f26ec, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00271-texture
+    second: {fileID: 2800000, guid: 831ef6699630f4f4bb41b41c3fa46490, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00272-texture
+    second: {fileID: 2800000, guid: 53a2849432e207448beac4eef0d271ab, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00273-texture
+    second: {fileID: 2800000, guid: fb5db07feb0d77740b78a7dbd88b374e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00274-texture
+    second: {fileID: 2800000, guid: f7a1911adb2056b4d810ad0def503dee, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00275-texture
+    second: {fileID: 2800000, guid: c8f813835656d714fbdefa994594b4cc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00276-texture
+    second: {fileID: 2800000, guid: c5b8e7735f5011d44baf6a72290c7fe9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00277-texture
+    second: {fileID: 2800000, guid: 421cb509028109d4c93d05aa09c5dbdf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00278-texture
+    second: {fileID: 2800000, guid: d834c81a4411fda4a8f4f8d54a1703c8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00279-texture
+    second: {fileID: 2800000, guid: 9ffae1bdcc83d9f4dbe326d2849e172a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00280-texture
+    second: {fileID: 2800000, guid: 91486e1ebfd35d84eb4373f70a6a7ae4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00281-texture
+    second: {fileID: 2800000, guid: 4f3d7ce075eca874b9a97de222cfcbc6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00282-texture
+    second: {fileID: 2800000, guid: d1e185f04224d8040baeea9df56077b9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00283-texture
+    second: {fileID: 2800000, guid: 0e69b937585aa344c86bd5f8f6fb0310, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00284-texture
+    second: {fileID: 2800000, guid: 6778ab56bb9423d4da122e30755e8dea, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00285-texture
+    second: {fileID: 2800000, guid: ed81b40fc2432604f9234e4cc5c3d56e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00286-texture
+    second: {fileID: 2800000, guid: c23a10dbffde8c1469ec1efc4ccf6199, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00287-texture
+    second: {fileID: 2800000, guid: 2f2754c446b95624e8fe44c3b0137791, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00288-texture
+    second: {fileID: 2800000, guid: d4ee061a8cb9ee34695c920aacb6f882, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00289-texture
+    second: {fileID: 2800000, guid: 7f3d7c5616a7423478796631bf0a3999, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00296-texture
+    second: {fileID: 2800000, guid: 315b9ea8b3a9f174cac213fc0fb980fc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00300-texture
+    second: {fileID: 2800000, guid: a2f29af1deb18a64dbd27bd95b7e1198, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00302-texture
+    second: {fileID: 2800000, guid: 8720a58253ba3dd4199acb1a26bf3826, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00303-texture
+    second: {fileID: 2800000, guid: 5e07f9e9fb79c0442974a6f81113179d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00305-texture
+    second: {fileID: 2800000, guid: 4fcb1de36af99fe4a9cd9fbb048706ea, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00306-texture
+    second: {fileID: 2800000, guid: 2947a664f6aca1d4ab49e7a1fdadb81b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00309-texture
+    second: {fileID: 2800000, guid: b90994d37c6aaa1409750f95528a2ee4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00310-texture
+    second: {fileID: 2800000, guid: c94bf0e8f32b1474da5c02736060517f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00311-texture
+    second: {fileID: 2800000, guid: 85998cdada4127f4fa1ab9cc66c4f0ef, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00312-texture
+    second: {fileID: 2800000, guid: 909bf024b6f2aa24cb8fe79f8ac5a86a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00313-texture
+    second: {fileID: 2800000, guid: 9135f47e1e63d0a499eaa6e117cb16c9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00314-texture
+    second: {fileID: 2800000, guid: a7db1c9fee3b42647b47603e179f2a5b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00315-texture
+    second: {fileID: 2800000, guid: ac0782448dc891443aadf30e13c1a44b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00316-texture
+    second: {fileID: 2800000, guid: 9227d71cca475874b92c011f255245f7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00317-texture
+    second: {fileID: 2800000, guid: c86517ea4f9ac0f418aa431d27e3ba4c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00318-texture
+    second: {fileID: 2800000, guid: b583924e57573794d9a0213ce725e4c5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00319-texture
+    second: {fileID: 2800000, guid: 6ec3ca1c0b3ef9948bed75735341369f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00320-texture
+    second: {fileID: 2800000, guid: f35547d8517eb124895a0f740d9f5116, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00321-texture
+    second: {fileID: 2800000, guid: 71bd225c57ac2bf4e880fcf43cd935a2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00322-texture
+    second: {fileID: 2800000, guid: 313ecfff0c0c18e4dae12f0ddb45ff35, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00323-texture
+    second: {fileID: 2800000, guid: 212e47b47c16d7c45aa5173338cfff92, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00324-texture
+    second: {fileID: 2800000, guid: 3b3a8f1f2778d9548a8e9db6692e9e82, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00325-texture
+    second: {fileID: 2800000, guid: 93fd0bfe004fa8f4fb8cf2ae52240a98, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00326-texture
+    second: {fileID: 2800000, guid: 2d79904a36879e94db0dd03177f9069e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00327-texture
+    second: {fileID: 2800000, guid: c1e0ea254973f3e4c8bb23150c9d1f5d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00328-texture
+    second: {fileID: 2800000, guid: a8d21235466bda34cbc13f871956a350, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00329-texture
+    second: {fileID: 2800000, guid: d25d175101d30a543a6f10adb01d7842, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00330-texture
+    second: {fileID: 2800000, guid: dacd5ac8c69798b42b76e3cbb273728b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00331-texture
+    second: {fileID: 2800000, guid: 3661744cf9ccad044b49b300f9f6c623, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00332-texture
+    second: {fileID: 2800000, guid: b7244d2a1b37a1d4f93afbce7424aee7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00333-texture
+    second: {fileID: 2800000, guid: bd46adb5bc2bd3a4cbc6a9a38114ebbd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00334-texture
+    second: {fileID: 2800000, guid: d86d7d224cc35d14191244a9595f0db3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00335-texture
+    second: {fileID: 2800000, guid: dd07fb7936be4054890107c5dcc50a32, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00336-texture
+    second: {fileID: 2800000, guid: 6a0ebe99792ec4a459bf4bb4dbce8f85, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00337-texture
+    second: {fileID: 2800000, guid: 813de470884c4ed49814e81663e0e353, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00338-texture
+    second: {fileID: 2800000, guid: f0d580ae2b77b9544ab21e1c0b027edc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00339-texture
+    second: {fileID: 2800000, guid: a75c02619fb61ae439094208cb77dd35, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00340-texture
+    second: {fileID: 2800000, guid: b46c781f91c16c340b8b127dfa7551ee, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00341-texture
+    second: {fileID: 2800000, guid: 98d779a5dc64da5418b735f89a7549cd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00342-texture
+    second: {fileID: 2800000, guid: 6f9cee4e6d684a5429961863ffe89e34, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00356-texture
+    second: {fileID: 2800000, guid: fb185a224cb78fc468d199932a118baa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00357-texture
+    second: {fileID: 2800000, guid: 78367ee1409e6e446b3b02ac0239bf5c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00358-texture
+    second: {fileID: 2800000, guid: 853e8d12685dd0946aed023ad2dc9c48, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00359-texture
+    second: {fileID: 2800000, guid: 78474fd97800ce74c93bc87c6ec22463, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00360-texture
+    second: {fileID: 2800000, guid: 94aa16b699b1223488d55d8cec5aeeb6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00361-texture
+    second: {fileID: 2800000, guid: b3d08523671e21747950f1c4c0941a77, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00364-texture
+    second: {fileID: 2800000, guid: 653f0c588b8b07f438ee54c024e3bfd6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00365-texture
+    second: {fileID: 2800000, guid: 90e2a49a457b9864ebea11258e9f12e8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00366-texture
+    second: {fileID: 2800000, guid: 9c5946db847a8c04e964826eb1ca1486, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00367-texture
+    second: {fileID: 2800000, guid: d2797259daacdce4ebe42da9f48325bc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00368-texture
+    second: {fileID: 2800000, guid: 5907e6aae5baa5b47b5311fdad13fa1f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00369-texture
+    second: {fileID: 2800000, guid: 69d9f55a887e28344ad43ec39d33bcb8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00372-texture
+    second: {fileID: 2800000, guid: 6e9eb3bd2fa67e549bcba24aeaea1e0e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00373-texture
+    second: {fileID: 2800000, guid: 367d50815c2971e42ac7c93780c1e86a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00374-texture
+    second: {fileID: 2800000, guid: 82f515ab1318e5c448072cc42819dba8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00375-texture
+    second: {fileID: 2800000, guid: 334987730c1c2664798664b7030fc752, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00376-texture
+    second: {fileID: 2800000, guid: 1ed285702e8afc5479980dc6f01dd3fb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00377-texture
+    second: {fileID: 2800000, guid: 2aa972e8475d00b449e773734c15c653, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00378-texture
+    second: {fileID: 2800000, guid: 20776f76ed34ed84e83547275534dc93, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00379-texture
+    second: {fileID: 2800000, guid: 21149627a1ee86e4aadbbe06f768434a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00380-texture
+    second: {fileID: 2800000, guid: d9798e29e90bdfe4eb5a9f1ed3109657, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00381-texture
+    second: {fileID: 2800000, guid: acef786b919570548a6e97bbbb13f95b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00382-texture
+    second: {fileID: 2800000, guid: 60c4c172f8d63824a88083eeda484ee9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00383-texture
+    second: {fileID: 2800000, guid: 57b4a4d29fd6c384392782f8ff259536, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00384-texture
+    second: {fileID: 2800000, guid: 61f2f8f62ff83e844a6479df70ec42f8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00385-texture
+    second: {fileID: 2800000, guid: 9d2e159553c20dd45a45edf53686d5bb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00386-texture
+    second: {fileID: 2800000, guid: 0170680f79b0aca4892cffe020463651, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00389-texture
+    second: {fileID: 2800000, guid: d9edd0657d7525b41b7e525d3efb7d78, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00390-texture
+    second: {fileID: 2800000, guid: 923d4be43a18c3043b4f3822c4134cc7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00391-texture
+    second: {fileID: 2800000, guid: 699cf9e3f78969e42bf9ea7a1b97ab2d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00395-texture
+    second: {fileID: 2800000, guid: 29d27f969fc967a4f95d1f54eb3511b7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00396-texture
+    second: {fileID: 2800000, guid: 2a6cfd2805c500648951765de88f35f4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00397-texture
+    second: {fileID: 2800000, guid: 1ce569af999468241b80be92ab0e0eac, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00398-texture
+    second: {fileID: 2800000, guid: 07ae68113ad9fbe4a805bd32bfad47ec, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00399-texture
+    second: {fileID: 2800000, guid: 83d00cef48c1a034eaf6aba73cae325f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00400-texture
+    second: {fileID: 2800000, guid: 121efc88563ccae478a86ee8ad3ccb8e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: manhattan2-00406-texture
+    second: {fileID: 2800000, guid: 9b1fbc9cf58535f49bc7055bf21802cd, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

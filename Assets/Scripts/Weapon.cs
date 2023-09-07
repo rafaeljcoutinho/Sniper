@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class Weapon : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private int ammoCapacity;
+    [SerializeField] private float timeToShoot;
+    [SerializeField] GameObject bulletPrefab;
+    [SerializeField] Transform firePoint;
+
+    private int ammoCurrent;
+
+    public void Shoot()
     {
-        
+        Instantiate(bulletPrefab, firePoint.position, Quaternion.LookRotation(firePoint.forward));
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
     }
 }
