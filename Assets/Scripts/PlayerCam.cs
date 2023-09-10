@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class PlayerCam : MonoBehaviour
 {
     public float sensX;
     public float sensY;
+    [SerializeField] private TextMeshProUGUI fps;
 
     public Transform orientation;
 
@@ -17,16 +19,19 @@ public class PlayerCam : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked; 
         Cursor.visible = false;
     }
-    void Update(){
+    void Update()
+    {
         float mouseX = Input.GetAxisRaw("Mouse X") * Time.deltaTime * sensX;
         float mouseY = Input.GetAxisRaw("Mouse Y") * Time.deltaTime * sensY;
-        
+
+        var x = 1 / Time.deltaTime;
+        fps.text = x.ToString();
+
         yRotation += mouseX;
         xRotation -= mouseY;
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
-
         transform.rotation = Quaternion.Euler(xRotation, yRotation, 0);
         orientation.rotation = Quaternion.Euler(0, yRotation, 0);
-        
+
     }
 }

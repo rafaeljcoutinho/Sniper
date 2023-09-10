@@ -1,0 +1,1494 @@
+fileFormatVersion: 2
+guid: d2cce37b7d70e324ab84d6fc90c675b7
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00000-texture
+    second: {fileID: 2800000, guid: 3f776259990398140abb4ace501d822c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00001-texture
+    second: {fileID: 2800000, guid: 685ff2b1994756a4c8b5dc1579bc4135, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00002-texture
+    second: {fileID: 2800000, guid: 3f57712ed0d7f2148955c45a440e0a7a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00003-texture
+    second: {fileID: 2800000, guid: ab380252d8857ef428eecaa8ce07c106, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00004-texture
+    second: {fileID: 2800000, guid: db678645e67d6ed459a7d40860e48565, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00005-texture
+    second: {fileID: 2800000, guid: 8db983605e78baf4884c7a58d70cb318, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00006-texture
+    second: {fileID: 2800000, guid: 2e4eb9948fa3d3c4dbc7d08ff415a706, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00007-texture
+    second: {fileID: 2800000, guid: a6e6437f3a998fd47963ae4169b44482, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00008-texture
+    second: {fileID: 2800000, guid: 46bec6e857f9fa144b59580ecb0dca90, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00009-texture
+    second: {fileID: 2800000, guid: bda21f8c7d0da2f47a62de64a41dfa76, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00010-texture
+    second: {fileID: 2800000, guid: c6a3ddb93c9d4c44e8cd40ba164ff2b2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00011-texture
+    second: {fileID: 2800000, guid: 63b9bfcf361b33f4ca8bd00ee6906a0e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00012-texture
+    second: {fileID: 2800000, guid: 3f4b0701452e3954ba5c98925df3befa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00013-texture
+    second: {fileID: 2800000, guid: 13876f55d5bbd48468cd8433acf3264a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00014-texture
+    second: {fileID: 2800000, guid: 87223e2ed1806f64082fb63ece6af6c3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00015-texture
+    second: {fileID: 2800000, guid: a0d10e75d8b2c114389b09bd6510ad6c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00016-texture
+    second: {fileID: 2800000, guid: 58ba6fa23616f404798aa0744e4f09ec, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00017-texture
+    second: {fileID: 2800000, guid: 71a946e8db6799141b2cead13d8304b4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00018-texture
+    second: {fileID: 2800000, guid: c3de08f687e1c3b4490af0abd7d46fbd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00019-texture
+    second: {fileID: 2800000, guid: 658675d75dfa68145af33a3d44968835, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00020-texture
+    second: {fileID: 2800000, guid: 329624b7b28754c4eb91952188144d39, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00021-texture
+    second: {fileID: 2800000, guid: e7460d3c61c5db44a99df2b6b4f46bd8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00022-texture
+    second: {fileID: 2800000, guid: 33a07d81735c60247a64adb90705b1f2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00023-texture
+    second: {fileID: 2800000, guid: 9c378f9550a697e4bb39886afbcaf32f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00024-texture
+    second: {fileID: 2800000, guid: 78c8e46dd930ec44084ea6c07cbcae4e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00025-texture
+    second: {fileID: 2800000, guid: 0e1ab7beec5b6a949a87a1750fc0448d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00026-texture
+    second: {fileID: 2800000, guid: a3125d43a402110409d716d3a44056f7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00027-texture
+    second: {fileID: 2800000, guid: 68f7d4d479c0b0741b233ad1b2e878e1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00028-texture
+    second: {fileID: 2800000, guid: 87193f9a10ac20e418c317f72d583f8a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00029-texture
+    second: {fileID: 2800000, guid: 9f4bd5c271cf02144911ccc3ef7a54a9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00030-texture
+    second: {fileID: 2800000, guid: 7009c46c5c597744fa9e1178cde6e246, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00031-texture
+    second: {fileID: 2800000, guid: cbb8ac55210418949b079806831e9402, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00032-texture
+    second: {fileID: 2800000, guid: f652c58342ab7ed41903371e43e3ff9a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00033-texture
+    second: {fileID: 2800000, guid: 9dfe8108709de60468a70ee5c885d335, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00034-texture
+    second: {fileID: 2800000, guid: 4edd9dfdbb3b15846a95e45f4af91e4f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00035-texture
+    second: {fileID: 2800000, guid: 1f1a63b90aaa9a142a75c0b3cf06c442, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00036-texture
+    second: {fileID: 2800000, guid: bd5e386558aa1f341ad17e925da11746, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00037-texture
+    second: {fileID: 2800000, guid: 440231b668e707d4bbe9f7a32bea24c5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00038-texture
+    second: {fileID: 2800000, guid: 14f4c37d50356784181bc265142dfcfb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00039-texture
+    second: {fileID: 2800000, guid: df83f7c83b4ffaa4885b4bc0cac204b3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00040-texture
+    second: {fileID: 2800000, guid: 98a4307ca0171a34094622238b2677df, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00041-texture
+    second: {fileID: 2800000, guid: a3c2b4916bfc6834d97024374fe70426, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00042-texture
+    second: {fileID: 2800000, guid: b75ca48b90ffe8445ae8a5b16792b243, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00043-texture
+    second: {fileID: 2800000, guid: fe878b14068cca1489c05458bdc2a3ac, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00044-texture
+    second: {fileID: 2800000, guid: 0e12357cdcc9c7b41a0a1656afc821ff, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00045-texture
+    second: {fileID: 2800000, guid: 84bd5e5acae82064b8d3364f02080df9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00046-texture
+    second: {fileID: 2800000, guid: 45d6e585279dd30478cf08930a278a94, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00047-texture
+    second: {fileID: 2800000, guid: 7953dd77c55a21141af0ef29e010c21e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00048-texture
+    second: {fileID: 2800000, guid: 794566cffdb568c4985500221ea0a899, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00049-texture
+    second: {fileID: 2800000, guid: d39fa266d70e34349b89c3c19ec77544, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00050-texture
+    second: {fileID: 2800000, guid: 6d2d7ee79fa55f64ba096386026cd805, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00051-texture
+    second: {fileID: 2800000, guid: ef7370cb7b7cc4b40ac129581cb84d7d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00052-texture
+    second: {fileID: 2800000, guid: 4b599a8306358104aa8feda3c573efe7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00053-texture
+    second: {fileID: 2800000, guid: 331a5fc208adf474fb80c86c15d7b619, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00054-texture
+    second: {fileID: 2800000, guid: c42eb9703b9deba40a31f93f7955edbb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00055-texture
+    second: {fileID: 2800000, guid: e7cd8c6587135df46840219cf355cf91, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00056-texture
+    second: {fileID: 2800000, guid: c905efe8e76b2d14c9c4dc764856afc9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00057-texture
+    second: {fileID: 2800000, guid: 3e1d151d0d33e4d45b6f8905be2ed72e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00058-texture
+    second: {fileID: 2800000, guid: 4831c74ca5924934e975bb933286b7eb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00059-texture
+    second: {fileID: 2800000, guid: 7146930e091c5f74c987246ab368a9b0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00060-texture
+    second: {fileID: 2800000, guid: e9f095cccbe33c74998c4f9a62f4b0b3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00061-texture
+    second: {fileID: 2800000, guid: b7926880813699241bce66112e73c36e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00062-texture
+    second: {fileID: 2800000, guid: cc6f0e2d894d3074fa4b0577b113f0ba, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00063-texture
+    second: {fileID: 2800000, guid: d776498ec4e3666478fff6a50aa34054, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00064-texture
+    second: {fileID: 2800000, guid: a32747016ee9cd64ba56696df7abbd93, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00065-texture
+    second: {fileID: 2800000, guid: f8ab953bb5e64da419650e49e0d8412b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00066-texture
+    second: {fileID: 2800000, guid: 053e09636767f7f4088e9747fcc48b26, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00067-texture
+    second: {fileID: 2800000, guid: 13c5268442a0b484ea65a9c111bda99a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00068-texture
+    second: {fileID: 2800000, guid: c0ad63f92256091478cc67a4a8584d7e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00069-texture
+    second: {fileID: 2800000, guid: 33382b06e17e6b541960906c94386761, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00070-texture
+    second: {fileID: 2800000, guid: 0b06c752f23a03b479959b3d124dfd8d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00071-texture
+    second: {fileID: 2800000, guid: dcc7c9116bc7b384daba8bfac7b93c37, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00072-texture
+    second: {fileID: 2800000, guid: 2d7e0b50f9a405846a0cc65bfcf1dddf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00073-texture
+    second: {fileID: 2800000, guid: 2cedf7396e828bb40a3fed2dd3702575, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00074-texture
+    second: {fileID: 2800000, guid: df613de2949369140be755caf412d6e4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00075-texture
+    second: {fileID: 2800000, guid: 220762f03b0c3934c8120661094e935d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00076-texture
+    second: {fileID: 2800000, guid: 6367745042c939341ae488015db6af06, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00077-texture
+    second: {fileID: 2800000, guid: 4e842988058e6f247870de9c3e43056c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00078-texture
+    second: {fileID: 2800000, guid: 2ea3468150d77e3449c88cdfc942909a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00079-texture
+    second: {fileID: 2800000, guid: c48c5697735a6d44a908faa8fd471e25, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00080-texture
+    second: {fileID: 2800000, guid: 81aca18c161026941afd06c733e068ca, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00081-texture
+    second: {fileID: 2800000, guid: 2c387a6efe64be4469b5e36d7c6b782c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00082-texture
+    second: {fileID: 2800000, guid: 8c6f37b5df9bc224b8d2922a16d9440b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00083-texture
+    second: {fileID: 2800000, guid: 3f043355151728f40a58eacf69eff313, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00084-texture
+    second: {fileID: 2800000, guid: 52d791b74fef9a14d93592ef92e809cb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00085-texture
+    second: {fileID: 2800000, guid: 7e71ba0be4921ff4885609d71061e473, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00086-texture
+    second: {fileID: 2800000, guid: f0678f7267f3ea34e9d23ee30f01b416, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00087-texture
+    second: {fileID: 2800000, guid: 7629aeb49f7e42e43a2d2beffbfa2112, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00088-texture
+    second: {fileID: 2800000, guid: a1b064bcded33e54b907e3cf43ef355c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00089-texture
+    second: {fileID: 2800000, guid: 3a2720cef32e3c145b30d8737b0b149f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00090-texture
+    second: {fileID: 2800000, guid: b12758f738f574c4db53acbead5ae173, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00091-texture
+    second: {fileID: 2800000, guid: 6155eb2dc76b94543b660218900c1826, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00092-texture
+    second: {fileID: 2800000, guid: d0d6b594d237442409c2177de52a0358, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00093-texture
+    second: {fileID: 2800000, guid: 8896a784c25e54347b12601d0a102e55, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00094-texture
+    second: {fileID: 2800000, guid: 066a54be940ecfa4581d7c231c22e53b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00095-texture
+    second: {fileID: 2800000, guid: 9fe304979750b3740bbda4d99a69390c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00096-texture
+    second: {fileID: 2800000, guid: 8c917c93f6a591d42aaedc608b46ab16, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00097-texture
+    second: {fileID: 2800000, guid: 56f3015e763fff34c9bc2f46daf901e1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00098-texture
+    second: {fileID: 2800000, guid: ebd3efd469abee841a91cbe4a3335717, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00099-texture
+    second: {fileID: 2800000, guid: 2987cc7530f49c944be49d0c54b64ccd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00100-texture
+    second: {fileID: 2800000, guid: ff63d430b7f20144aa96a7d88aa0dbf4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00101-texture
+    second: {fileID: 2800000, guid: 835e39014d398704bba1a4c114cf42b5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00102-texture
+    second: {fileID: 2800000, guid: 21c9458c527e582489846831f44902e0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00103-texture
+    second: {fileID: 2800000, guid: 1f90d128a1654f244bd3c2706df6b3a8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00104-texture
+    second: {fileID: 2800000, guid: 5bed16ec7208ac3449b274870b36f437, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00105-texture
+    second: {fileID: 2800000, guid: ba4f9804934a54f498ca39f07fc38a2f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00106-texture
+    second: {fileID: 2800000, guid: e582102ff6a0bda48b776eba1bf33f51, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00107-texture
+    second: {fileID: 2800000, guid: 42b16056aa883c64d9964bd4850523e5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00108-texture
+    second: {fileID: 2800000, guid: 5b18bdb44120a114c8ed4f694dd98ed0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00109-texture
+    second: {fileID: 2800000, guid: 2a6e1b96678f56343b8564a9d368c793, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00110-texture
+    second: {fileID: 2800000, guid: 7ecf484f5ca34994e8634735a3e05737, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00111-texture
+    second: {fileID: 2800000, guid: 7b395e61bc2e03447b66730ee37bec67, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00112-texture
+    second: {fileID: 2800000, guid: ac2fb5421c3e8094f8d43cd53467a781, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00113-texture
+    second: {fileID: 2800000, guid: bb4993938cc083e48ab7e0513dc75830, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00114-texture
+    second: {fileID: 2800000, guid: 390818099e5b8f847b8f44a2b073013e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00115-texture
+    second: {fileID: 2800000, guid: 37b66e8b3f6f52848b2c28662c26c1ed, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00116-texture
+    second: {fileID: 2800000, guid: b2600c5f901e8c142a7daa26355d1841, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00117-texture
+    second: {fileID: 2800000, guid: fc97d1348c5865f45a2af26dbf928639, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00118-texture
+    second: {fileID: 2800000, guid: 199a6d110d397894ea271175e24622c8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00119-texture
+    second: {fileID: 2800000, guid: 53938e5d5012a2a4a835e3a4c1f66d8e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00120-texture
+    second: {fileID: 2800000, guid: d30e51f802431b041a9a3a4e2d938342, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00121-texture
+    second: {fileID: 2800000, guid: e8d2892e46789454bb53f83d2370e7c1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00122-texture
+    second: {fileID: 2800000, guid: 8047424e741cfdc41b6fb7ac829c6936, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00123-texture
+    second: {fileID: 2800000, guid: e3fff7d3b0a71174cb5da52630d35efc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00124-texture
+    second: {fileID: 2800000, guid: 9be4a8cbb4ce5924797146d2f08e8f4b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00125-texture
+    second: {fileID: 2800000, guid: 68f8df6d577b4d347bcbdf922bce25ba, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00126-texture
+    second: {fileID: 2800000, guid: 79edd6bfe1338574e8013290a1c382e6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00127-texture
+    second: {fileID: 2800000, guid: 7fad4cfb762557244bc243fb38bee595, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00128-texture
+    second: {fileID: 2800000, guid: c60a73104729df641a9ba63e8b077d69, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00129-texture
+    second: {fileID: 2800000, guid: eb2dc218051a4314e995ca03642a6017, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00130-texture
+    second: {fileID: 2800000, guid: 8eda6797fda5bc646bff4ff33715d58a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00131-texture
+    second: {fileID: 2800000, guid: 55888db0d8d18714589030a44b4cbbe9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00132-texture
+    second: {fileID: 2800000, guid: 677481834fa554f4a9687d23071fe0a2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00133-texture
+    second: {fileID: 2800000, guid: c1beaa142368c2940a082674d5474bca, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00134-texture
+    second: {fileID: 2800000, guid: 616650f7f59900e4e8a872352c318712, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00135-texture
+    second: {fileID: 2800000, guid: c317022afeaff3b47a5270fba47e9b16, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00136-texture
+    second: {fileID: 2800000, guid: 7276cae0de83744408e7aa353a9a5ed5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00137-texture
+    second: {fileID: 2800000, guid: 63d0d46f33484614a83a9419d1b4ac98, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00138-texture
+    second: {fileID: 2800000, guid: 93b05291127dc3141a8c74545336b78d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00139-texture
+    second: {fileID: 2800000, guid: 886192822429efd45830a711e892a96f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00140-texture
+    second: {fileID: 2800000, guid: 1c72647350b330348af8d5a4932bec15, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00141-texture
+    second: {fileID: 2800000, guid: 595db34fb5f0d0d438fbfde24b09f935, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00142-texture
+    second: {fileID: 2800000, guid: 381df9d2a45595942b1a02d12ce550b5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00143-texture
+    second: {fileID: 2800000, guid: bd70ad6088fb3ad448c3d3bf8ad20a77, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00144-texture
+    second: {fileID: 2800000, guid: a03da80cad04dc24a9c9f6e67fc3d01a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00145-texture
+    second: {fileID: 2800000, guid: 56bdfc87e2aa8d04c9edbb7626ed3b63, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00146-texture
+    second: {fileID: 2800000, guid: d62f072daa8f43e41a6b92489e2b5742, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00147-texture
+    second: {fileID: 2800000, guid: 4ca9d14e72831404cba15ca175085f50, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00148-texture
+    second: {fileID: 2800000, guid: b6f444ecfc30e7f4bab60b009c5792bb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00149-texture
+    second: {fileID: 2800000, guid: 86620b9e91b05ae4097379d086a2a82c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00150-texture
+    second: {fileID: 2800000, guid: f030396e19498aa449a5a93aa9c9731a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00151-texture
+    second: {fileID: 2800000, guid: a87431e6604cdcc40bc248e758e942b9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00152-texture
+    second: {fileID: 2800000, guid: f13709ff72bdc2e4ea2c151145873fe8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00153-texture
+    second: {fileID: 2800000, guid: e4536cae1ec51a142bca32240425137d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00154-texture
+    second: {fileID: 2800000, guid: ffaa2e7a9567624479fac5299fb5343a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00155-texture
+    second: {fileID: 2800000, guid: e30d588f72af6ba4d9bbdc4e84b6d5e8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00156-texture
+    second: {fileID: 2800000, guid: c5d10b7f7eccfc34c8bc4b0b6a54d692, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00157-texture
+    second: {fileID: 2800000, guid: 9a913750c2bb64f4dbc6bbb44ecdf5d9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00158-texture
+    second: {fileID: 2800000, guid: b1e26c6d365892a43b7c3ae71ca936e2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00159-texture
+    second: {fileID: 2800000, guid: 13bc0b6a5151cf744aee0ead57fef39c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00160-texture
+    second: {fileID: 2800000, guid: 4afa5324fec7ac34f986e73c9b3c1590, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00161-texture
+    second: {fileID: 2800000, guid: 4eaa8ebd001b5754f831f824e463829b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00162-texture
+    second: {fileID: 2800000, guid: d253064ab0108c346bbfe59cd2b8f9c2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00163-texture
+    second: {fileID: 2800000, guid: 97028c394a8162b42b696a931f3bf223, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00164-texture
+    second: {fileID: 2800000, guid: 170ead4a11c93b94e81376d716db35f9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00165-texture
+    second: {fileID: 2800000, guid: d67bcd3b3c838514ea79279e7fc4edba, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00166-texture
+    second: {fileID: 2800000, guid: 4b8c8a086671c8b43987904d2e106fee, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00167-texture
+    second: {fileID: 2800000, guid: d079b82fe9593f044b34f0e013e3a19b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00168-texture
+    second: {fileID: 2800000, guid: 33f305005875d81459df2d63dea48078, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00169-texture
+    second: {fileID: 2800000, guid: 169efbff17d040040a62891470ac0f79, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00170-texture
+    second: {fileID: 2800000, guid: 87cf39338b1dad646886df09203cc807, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00171-texture
+    second: {fileID: 2800000, guid: 194ba9f012b13f949b6a4c7c52443ac7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00172-texture
+    second: {fileID: 2800000, guid: 4741142c46bc34742b2da7c2f025ec51, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00173-texture
+    second: {fileID: 2800000, guid: e19405decf39cfa48b0e6b9a0b70e711, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00174-texture
+    second: {fileID: 2800000, guid: bf36fd092fdac1842b0f6b7efc79fc9c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00175-texture
+    second: {fileID: 2800000, guid: 1c5da31593ce2134c9c2773b45befe2a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00176-texture
+    second: {fileID: 2800000, guid: 693d9270d29ce94459e0b2fb6d12da7e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00177-texture
+    second: {fileID: 2800000, guid: c92ea55b8690e6f46b28594ef1a3d8de, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00178-texture
+    second: {fileID: 2800000, guid: ae67ce94fedce334eb2f1c02e0bea702, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00179-texture
+    second: {fileID: 2800000, guid: 97ceb3838cf2f1b4982c06b16d9068e6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00180-texture
+    second: {fileID: 2800000, guid: 3d723e07807f9d64fb8cdc456396f9ab, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00181-texture
+    second: {fileID: 2800000, guid: 5177012902c933f4aa07502a20691275, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00182-texture
+    second: {fileID: 2800000, guid: 56b5865121dc7a74fa51438be5966740, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00183-texture
+    second: {fileID: 2800000, guid: f0f6d0f15094a444eba2afcd87d9a51b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00184-texture
+    second: {fileID: 2800000, guid: d5d694e4bfc0f2a4988ecd9f5b486158, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00185-texture
+    second: {fileID: 2800000, guid: fbe6493e581ef1742b8f750e9f648a46, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00186-texture
+    second: {fileID: 2800000, guid: 551403d62d085c749bf25fd9bc13d65b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00187-texture
+    second: {fileID: 2800000, guid: 5ff0ce704c1ebad4cbb71cd79fba616c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00188-texture
+    second: {fileID: 2800000, guid: 029a656ea3906c74d897ca2a2623fa3b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00189-texture
+    second: {fileID: 2800000, guid: 874eef71c2191734aa2c36a2d1a61746, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00190-texture
+    second: {fileID: 2800000, guid: 0c7c3b9e5b53be54497dcbba0b3d4da6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00191-texture
+    second: {fileID: 2800000, guid: 5828e8e424617f247825181bc5833129, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00192-texture
+    second: {fileID: 2800000, guid: 74e6ced1599786f4795f576ae3c7f80b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00193-texture
+    second: {fileID: 2800000, guid: 4046a06f7c0517a4f8f9738ddd1aba7d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00194-texture
+    second: {fileID: 2800000, guid: 30bbd7f81e7bab5448c0c955d9f55f59, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00195-texture
+    second: {fileID: 2800000, guid: 2969e713c57d0de44bc17f4981ed0f54, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00196-texture
+    second: {fileID: 2800000, guid: eb443c6cd800f8640adbcdd31b6bb411, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00197-texture
+    second: {fileID: 2800000, guid: 6bfb11bafd95f22458c9b91c2475530a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00198-texture
+    second: {fileID: 2800000, guid: 1dd35d32c83ee93438edceab8551ac1c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00199-texture
+    second: {fileID: 2800000, guid: 41194f777b7a24a4bb943da3dd5a75fe, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00200-texture
+    second: {fileID: 2800000, guid: 537af0c58d753854f8ce97e90f85a805, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00201-texture
+    second: {fileID: 2800000, guid: 0922d9b69594ad24c8466343f347d092, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00202-texture
+    second: {fileID: 2800000, guid: 765ccfd6d35c9e245a0dfe47f2dd0cc3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00203-texture
+    second: {fileID: 2800000, guid: 1620c3c88c0324c4184769a3dff1b6fc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00204-texture
+    second: {fileID: 2800000, guid: 7e25b6f5e82cfa345aab1dc3fd62f4fd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00205-texture
+    second: {fileID: 2800000, guid: 349919037b65a7d4e9c4754b1654e214, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00206-texture
+    second: {fileID: 2800000, guid: af52e28764aa98a4b935be0a0ca4e66b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00207-texture
+    second: {fileID: 2800000, guid: c7b0f61bdd365a749b59720b10248847, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00208-texture
+    second: {fileID: 2800000, guid: a8f89472f310caf48821b4cfe503c96d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00209-texture
+    second: {fileID: 2800000, guid: 87810bf8cc36fab4989b6aa66e5ec097, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00210-texture
+    second: {fileID: 2800000, guid: da13d75e4907f814b8d92dad409b6df2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00211-texture
+    second: {fileID: 2800000, guid: b87fa3ee9f5f03346b99fde9e074bf13, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00212-texture
+    second: {fileID: 2800000, guid: cca191a8058d26646ae4b1164c4d566a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00213-texture
+    second: {fileID: 2800000, guid: bbc4b220d432a874ab2a6fda6e0b5a22, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00214-texture
+    second: {fileID: 2800000, guid: dea8a9a1b072bbe46b9b37a6cf22dd4c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00215-texture
+    second: {fileID: 2800000, guid: 11f8527cc2e7347448a524e4d2ed0d61, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00216-texture
+    second: {fileID: 2800000, guid: f1c5be3f6d4009641a40ca53f8d3ce55, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00217-texture
+    second: {fileID: 2800000, guid: 936d7124c329bb74bac59948e39174fc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00218-texture
+    second: {fileID: 2800000, guid: b70b265c18ed97444a6399f5241b3a62, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00219-texture
+    second: {fileID: 2800000, guid: 0f82c91fd65b96848ab250ca8b37d51d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00220-texture
+    second: {fileID: 2800000, guid: e8941415c0e131940915514f26bba520, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00221-texture
+    second: {fileID: 2800000, guid: d08c36212a448a44bb7ad884f48dce2d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00222-texture
+    second: {fileID: 2800000, guid: db8878bc2348bcf4ca4b0b46bfd961d0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00223-texture
+    second: {fileID: 2800000, guid: ec3840e52ebda174cbf077444e02f78d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00224-texture
+    second: {fileID: 2800000, guid: 0c1d42c10ac1ffd4490b5e1acc1d5f26, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00225-texture
+    second: {fileID: 2800000, guid: 2b911fcf55918d642b8927e699289121, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00226-texture
+    second: {fileID: 2800000, guid: cf02bbf4a3ba83342a7e50ad908f1b73, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00227-texture
+    second: {fileID: 2800000, guid: a3c93fa02ea633745adc5d8c8600eb82, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00228-texture
+    second: {fileID: 2800000, guid: 0b9195740144abd44996d3c7850afc30, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00229-texture
+    second: {fileID: 2800000, guid: fcb9326ca5f085c4e9bd2b4695ae9274, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00230-texture
+    second: {fileID: 2800000, guid: 646e66471f566ca43a653e7d584ff497, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00231-texture
+    second: {fileID: 2800000, guid: caae92a80b23c88449b158a452304255, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00232-texture
+    second: {fileID: 2800000, guid: 93de368e692d7d842b4b15a15de2a00f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00233-texture
+    second: {fileID: 2800000, guid: 3bd141680694f5b4aa54a3d3b5eaea93, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00234-texture
+    second: {fileID: 2800000, guid: 7ffa95e144c353649979acb397839d7a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00235-texture
+    second: {fileID: 2800000, guid: caf8b6056b8714942b08f1ec1e3eeb7f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00236-texture
+    second: {fileID: 2800000, guid: 78731b9dd368ab0408cc0c7feabdf458, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00237-texture
+    second: {fileID: 2800000, guid: bd37528d674376441b7f78c8ac879a03, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00238-texture
+    second: {fileID: 2800000, guid: 0e61307302b791646840074f5d369cf7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00239-texture
+    second: {fileID: 2800000, guid: ac6b93f474b2fe44ebe39d663af9ab9c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00240-texture
+    second: {fileID: 2800000, guid: 03f5c69a47253fd4d8babe6e47c60e63, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00241-texture
+    second: {fileID: 2800000, guid: ca2daf08cf8f440469f6b1d90d2792a6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00242-texture
+    second: {fileID: 2800000, guid: 5f61b94adf9d9454f988d6555f9144b7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00243-texture
+    second: {fileID: 2800000, guid: 6fef360a22f1ce942a6fae7b888cb96c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00244-texture
+    second: {fileID: 2800000, guid: aff63dd9252e4a24087c1b46326ff85f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00245-texture
+    second: {fileID: 2800000, guid: 8b6642c925f72994eb67108c87e6ca61, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00246-texture
+    second: {fileID: 2800000, guid: 37e9c05d62656274b80f454838442afc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00247-texture
+    second: {fileID: 2800000, guid: 187614d0d1b3cbf41b441a9e9bcba6d0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00248-texture
+    second: {fileID: 2800000, guid: 4d35bc4e42254504aaefcd28b540eda4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00249-texture
+    second: {fileID: 2800000, guid: f62ad6a38d612ad43983e913f9d43003, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00250-texture
+    second: {fileID: 2800000, guid: d8916cf2e7603b94b989c62c47aabdfa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00251-texture
+    second: {fileID: 2800000, guid: df317f8fa8c71344993db1347bb9dafb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00252-texture
+    second: {fileID: 2800000, guid: c78f79c6523f7874889425fc2d6615ee, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00253-texture
+    second: {fileID: 2800000, guid: f4a0d313822585648b13ff81020f35b6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00254-texture
+    second: {fileID: 2800000, guid: 49c03746607ecdc4b9b3898d55b7c21a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00255-texture
+    second: {fileID: 2800000, guid: 1c5e48c670f5cd5499a75e843379878f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00256-texture
+    second: {fileID: 2800000, guid: 341349bc508ea2040a23f88840c544fd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00257-texture
+    second: {fileID: 2800000, guid: 3986bda727604be4891b882df40feb35, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00258-texture
+    second: {fileID: 2800000, guid: 8a7bd01b80276a140b28bea92569dd63, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00259-texture
+    second: {fileID: 2800000, guid: 03a927e37ef74784a9dddaf6915f0850, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00260-texture
+    second: {fileID: 2800000, guid: 213c50dfe6c61a8439449eaab1ec48bc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00261-texture
+    second: {fileID: 2800000, guid: 94f75a8d4fcc62043a3cbb5e2e653c10, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00262-texture
+    second: {fileID: 2800000, guid: 3696396b4c568fc47b1e0b394298fa7c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00263-texture
+    second: {fileID: 2800000, guid: b5e1b7d7578c0cb4aa09242fe29ff692, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00264-texture
+    second: {fileID: 2800000, guid: 0a0fc3ddca0733d428646266bf4fd368, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00265-texture
+    second: {fileID: 2800000, guid: 7a041c7a5d187264590714ffe73bc2c3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00266-texture
+    second: {fileID: 2800000, guid: d70101f7b4e884243bfe11a558386d86, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00267-texture
+    second: {fileID: 2800000, guid: 61b414c148d24944aa789a478984c987, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00268-texture
+    second: {fileID: 2800000, guid: bda0f6ee5fb34034bba96bd1edbad04f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00269-texture
+    second: {fileID: 2800000, guid: d872b9963ffdb4842824ac1df546860f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00270-texture
+    second: {fileID: 2800000, guid: 3663db705a9caa249ab01fc2b1e0c729, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00271-texture
+    second: {fileID: 2800000, guid: 4dfd5edb98a056846a867afb39099c3b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00272-texture
+    second: {fileID: 2800000, guid: 33581568fde944a4688579981dbde74c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00273-texture
+    second: {fileID: 2800000, guid: 52d0ff106bdd34d4f9e04fa693cec6a6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00274-texture
+    second: {fileID: 2800000, guid: 2589266b287b09543bdff2a5d78bdb24, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00275-texture
+    second: {fileID: 2800000, guid: 9eeb036d86ba5c24f8908495a4edb7fb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wildlife2-00276-texture
+    second: {fileID: 2800000, guid: d9ba65d3ce6c7654ebc87e8c44daa69c, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
