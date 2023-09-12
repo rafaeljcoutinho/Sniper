@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class PlayerCam : MonoBehaviour
 {
@@ -22,7 +23,14 @@ public class PlayerCam : MonoBehaviour
         {
             if(Input.GetTouch(0).phase == TouchPhase.Moved)
             {
-                lookInput = Input.GetTouch(0).deltaPosition * cameraSensitivity * Time.deltaTime;
+                if (EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId))
+                {
+                    
+                }
+                else
+                {
+                    lookInput = Input.GetTouch(0).deltaPosition * cameraSensitivity * Time.deltaTime;
+                }
             }
             else if(Input.GetTouch(0).phase == TouchPhase.Stationary)
             {

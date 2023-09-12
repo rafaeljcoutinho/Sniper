@@ -6,20 +6,28 @@ public class Weapon : MonoBehaviour
     [SerializeField] private int ammoCapacity;
     [SerializeField] private int damage;
     [SerializeField] private float timeToShoot;
+    [SerializeField] private float distanceScope;
     [SerializeField] private GameObject bulletPrefab;
     [SerializeField] private Transform firePoint;
     [SerializeField] private float weaponRange;
     [SerializeField] private LayerMask Mask;
     [SerializeField] private TrailRenderer BulletTrail;
 
+    [SerializeField] private Camera cam;
+    [SerializeField] private GameObject ScopeUI;
+
+
 
     private int ammoCurrent;
     private float nextFire;
+    private bool isScope;
+    private Vector3 screenCenter;
 
     private void Awake()
     {
         nextFire = 0;
         ammoCurrent = ammoCapacity;
+        isScope = false;
     }
 
     public void Shoot()
@@ -27,7 +35,7 @@ public class Weapon : MonoBehaviour
         if(Time.time > nextFire && ammoCurrent > 0)
         {
             ammoCurrent--;
-            if (Physics.Raycast(firePoint.position, firePoint.forward, out RaycastHit hit, float.MaxValue, Mask))
+            if (Physics.Raycast(cam.transform.position, cam.transform.forward, out RaycastHit hit, float.MaxValue, Mask))
             {
                 TrailRenderer trail = Instantiate(BulletTrail, firePoint.position, Quaternion.identity);
                 StartCoroutine(SpawnTrail(trail, hit));
@@ -48,6 +56,22 @@ public class Weapon : MonoBehaviour
     {
         //animation
         ammoCurrent = ammoCapacity;
+    }
+
+    public void Aim()
+    {
+        if(isScope == false)
+        {
+            isScope = true;
+            ScopeUI.SetActive(true);
+            cam.fieldOfView -= distanceScope;
+        }
+        else
+        {
+            isScope = false;
+            ScopeUI.SetActive(false);
+            cam.fieldOfView += distanceScope;
+        }
     }
     
     private IEnumerator SpawnTrail(TrailRenderer Trail, RaycastHit Hit)
