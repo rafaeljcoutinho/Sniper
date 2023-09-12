@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Weapon : MonoBehaviour
@@ -13,8 +12,7 @@ public class Weapon : MonoBehaviour
     [SerializeField] private LayerMask Mask;
     [SerializeField] private TrailRenderer BulletTrail;
 
-    private float lastShootTime;
-    private Ray ray;
+
     private int ammoCurrent;
     private float nextFire;
 

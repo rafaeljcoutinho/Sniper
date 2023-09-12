@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 1298964159217217891}
   - component: {fileID: 5727317114815421480}
   - component: {fileID: 7276880001255018011}
-  - component: {fileID: 7511805042777455632}
   - component: {fileID: 2098543917271077116}
   m_Layer: 0
   m_Name: Player
@@ -124,18 +123,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   equipedWeapon: {fileID: 4675441194031925799}
---- !u!114 &7511805042777455632
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1231433218348740255}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60eead31ff70016428e46ea763e533d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &2098543917271077116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -163,7 +150,6 @@ GameObject:
   - component: {fileID: 8532341206411125023}
   - component: {fileID: 3889548403043609795}
   - component: {fileID: 395187955088796720}
-  - component: {fileID: 1447334348499762334}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -246,22 +232,6 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7783897470070868078}
   m_Enabled: 1
---- !u!114 &1447334348499762334
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7783897470070868078}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b702dc8bbf1c1a54b9a2e61bd71617dc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sensX: 100
-  sensY: 100
-  fps: {fileID: 0}
-  orientation: {fileID: 4029188957354957589}
 --- !u!1001 &5957869615230800901
 PrefabInstance:
   m_ObjectHideFlags: 0

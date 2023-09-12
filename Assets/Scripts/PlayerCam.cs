@@ -1,37 +1,45 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
 
 public class PlayerCam : MonoBehaviour
 {
-    public float sensX;
-    public float sensY;
-    [SerializeField] private TextMeshProUGUI fps;
+    [SerializeField] private Transform cameraTransform;
+    [SerializeField] private float cameraSensitivity;
 
-    public Transform orientation;
+    Vector2 lookInput;
+    float cameraPitch;
 
-    float xRotation;
-    float yRotation;
 
-    void Start()
-    {
-        Cursor.lockState = CursorLockMode.Locked; 
-        Cursor.visible = false;
-    }
     void Update()
     {
-        float mouseX = Input.GetAxisRaw("Mouse X") * Time.deltaTime * sensX;
-        float mouseY = Input.GetAxisRaw("Mouse Y") * Time.deltaTime * sensY;
+        GetTouchInput();
+        LookAround();
 
-        var x = 1 / Time.deltaTime;
-        fps.text = x.ToString();
+    }
 
-        yRotation += mouseX;
-        xRotation -= mouseY;
-        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
-        transform.rotation = Quaternion.Euler(xRotation, yRotation, 0);
-        orientation.rotation = Quaternion.Euler(0, yRotation, 0);
+    void GetTouchInput()
+    {
+        if(Input.touchCount > 0)
+        {
+            if(Input.GetTouch(0).phase == TouchPhase.Moved)
+            {
+                lookInput = Input.GetTouch(0).deltaPosition * cameraSensitivity * Time.deltaTime;
+            }
+            else if(Input.GetTouch(0).phase == TouchPhase.Stationary)
+            {
+                lookInput = Vector2.zero;
+            }
 
+        }
+        else
+        {
+            lookInput = Vector2.zero;
+        }
+    }
+    void LookAround()
+    {
+        cameraPitch = Mathf.Clamp(cameraPitch - lookInput.y, -90f, 90f);
+        cameraTransform.localRotation = Quaternion.Euler(cameraPitch, 0, 0);
+
+        transform.Rotate(transform.up, lookInput.x);
     }
 }
