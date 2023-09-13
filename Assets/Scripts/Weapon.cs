@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Weapon : MonoBehaviour
 {
@@ -15,24 +16,40 @@ public class Weapon : MonoBehaviour
 
     [SerializeField] private Camera cam;
     [SerializeField] private GameObject ScopeUI;
+    [SerializeField] private Slider zoomSlider;
+    [SerializeField] private float zoomMultiplier;
 
 
 
     private int ammoCurrent;
     private float nextFire;
     private bool isScope;
-    private Vector3 screenCenter;
+    
+    private float camInit;
 
     private void Awake()
     {
         nextFire = 0;
         ammoCurrent = ammoCapacity;
         isScope = false;
+        camInit = cam.fieldOfView;
+        zoomSlider.value = zoomSlider.maxValue;
+        
     }
-
+    private void Update()
+    {
+        if (isScope == true)
+        {
+            cam.fieldOfView = distanceScope * zoomSlider.value * zoomMultiplier;
+        }else
+        {
+            zoomSlider.value = zoomSlider.maxValue;
+            cam.fieldOfView = camInit;
+        }
+    }
     public void Shoot()
     {
-        if(Time.time > nextFire && ammoCurrent > 0)
+        if(Time.time > nextFire && ammoCurrent > 0)  
         {
             ammoCurrent--;
             if (Physics.Raycast(cam.transform.position, cam.transform.forward, out RaycastHit hit, float.MaxValue, Mask))
@@ -64,13 +81,11 @@ public class Weapon : MonoBehaviour
         {
             isScope = true;
             ScopeUI.SetActive(true);
-            cam.fieldOfView -= distanceScope;
         }
         else
         {
             isScope = false;
             ScopeUI.SetActive(false);
-            cam.fieldOfView += distanceScope;
         }
     }
     

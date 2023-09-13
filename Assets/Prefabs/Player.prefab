@@ -284,7 +284,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sniper
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1996752473510360, guid: 1bf1d5336ac129840bf169eaa2689995, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -312,6 +313,7 @@ MonoBehaviour:
   ammoCapacity: 10
   damage: 10
   timeToShoot: 0.1
+  distanceScope: 0
   bulletPrefab: {fileID: 634212660906586475, guid: d8a4513542de7ba4080ae2874b870da7, type: 3}
   firePoint: {fileID: 3046465091413969492}
   weaponRange: 100
@@ -319,6 +321,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   BulletTrail: {fileID: 0}
+  cam: {fileID: 0}
+  ScopeUI: {fileID: 0}
+  zoomSlider: {fileID: 0}
 --- !u!4 &3046465091413969492 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8712685192381685329, guid: 1bf1d5336ac129840bf169eaa2689995, type: 3}

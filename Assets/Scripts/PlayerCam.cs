@@ -1,14 +1,22 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class PlayerCam : MonoBehaviour
 {
     [SerializeField] private Transform cameraTransform;
     [SerializeField] private float cameraSensitivity;
+    [SerializeField] private Slider zoomSlider;
 
     Vector2 lookInput;
     float cameraPitch;
 
+    float camCenter;
+
+    private void Awake()
+    {
+        camCenter = Screen.width / 2;
+    }
 
     void Update()
     {
@@ -21,22 +29,20 @@ public class PlayerCam : MonoBehaviour
     {
         if(Input.touchCount > 0)
         {
-            if(Input.GetTouch(0).phase == TouchPhase.Moved)
+            foreach (Touch i in Input.touches)
             {
-                if (EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId))
+                if(i.position.x > camCenter)
                 {
-                    
-                }
-                else
-                {
-                    lookInput = Input.GetTouch(0).deltaPosition * cameraSensitivity * Time.deltaTime;
+                    if (i.phase == TouchPhase.Moved)
+                    {
+                        lookInput = i.deltaPosition * cameraSensitivity * zoomSlider.value * Time.deltaTime;
+                    }
+                    else if (i.phase == TouchPhase.Stationary)
+                    {
+                        lookInput = Vector2.zero;
+                    }
                 }
             }
-            else if(Input.GetTouch(0).phase == TouchPhase.Stationary)
-            {
-                lookInput = Vector2.zero;
-            }
-
         }
         else
         {
