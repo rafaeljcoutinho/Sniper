@@ -4,6 +4,11 @@ using UnityEngine;
 public class EnableGameObjects : MonoBehaviour
 {
     private TakeDamage takeDamage;
+    private SpawnPointController spawnPoints;
+    private void Awake()
+    {
+        spawnPoints = GameObject.Find("SpawnPoints").GetComponent<SpawnPointController>();
+    }
     public void ReviveAfterXSec(GameObject go, float timeToRespawn)
     {
         StartCoroutine(RespawnCoroutine(go, timeToRespawn));
@@ -13,9 +18,18 @@ public class EnableGameObjects : MonoBehaviour
     IEnumerator RespawnCoroutine(GameObject go, float timeToRespawn )
     {
         yield return new WaitForSecondsRealtime(timeToRespawn);
-        go.SetActive(true);
+
+        var aux = spawnPoints.GetNewPosition();
+        var takeDamage = go.GetComponent<TakeDamage>();
+        if(aux != null)
+        {
+            go.transform.position = aux.transform.position;
+            takeDamage.SetIdxPosition(aux);
+        }
+            
         go.GetComponent<TakeDamage>().Revive();
-        
+        go.SetActive(true);
+
         yield return null;
     }
 

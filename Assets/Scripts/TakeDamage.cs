@@ -7,12 +7,15 @@ public class TakeDamage : MonoBehaviour
     [SerializeField] private float timeToRespawn;
     
     private EnableGameObjects enableGameObjects;
+    private SpawnPointController spawnPointController;
+    private GameObject idxPosition;
 
 
     private void Awake()
     {
         hp = maxHp;
         enableGameObjects = GameObject.Find("SceneController").GetComponent<EnableGameObjects>();
+        spawnPointController = GameObject.Find("SpawnPoints").GetComponent<SpawnPointController>();
     }
     public void TakeDamageQnt(int qnt)
     {
@@ -23,8 +26,14 @@ public class TakeDamage : MonoBehaviour
         }
     }
 
+    public void SetIdxPosition(GameObject SpawnPoint)
+    {
+        idxPosition = SpawnPoint;
+    }
+
     private void Die()
     {
+        spawnPointController.FreePosition(idxPosition);
         enableGameObjects.ReviveAfterXSec(gameObject, timeToRespawn);
         gameObject.SetActive(false);
     }
