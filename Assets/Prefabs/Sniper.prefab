@@ -43,7 +43,6 @@ GameObject:
   - component: {fileID: 7233802106953838470}
   - component: {fileID: 6439788031270399061}
   - component: {fileID: 3004007398676230911}
-  - component: {fileID: 1996752473510360}
   m_Layer: 0
   m_Name: SniperGpx
   m_TagString: Untagged
@@ -139,22 +138,6 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &1996752473510360
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2717203926961127530}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd9fa951e866bb44f8a77055a6a2f190, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ammoCapacity: 10
-  timeToShoot: 0.2
-  bulletPrefab: {fileID: 634212660906586475, guid: d8a4513542de7ba4080ae2874b870da7, type: 3}
-  firePoint: {fileID: 8712685192381685329}
 --- !u!1 &8536391219310434250
 GameObject:
   m_ObjectHideFlags: 0

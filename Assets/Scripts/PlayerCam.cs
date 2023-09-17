@@ -35,7 +35,8 @@ public class PlayerCam : MonoBehaviour
                 {
                     if (i.phase == TouchPhase.Moved)
                     {
-                        lookInput = i.deltaPosition * cameraSensitivity * zoomSlider.value * Time.deltaTime;
+                        if(i.deltaPosition.magnitude > .1f)
+                            lookInput = i.deltaPosition * cameraSensitivity * zoomSlider.value * Time.deltaTime;
                     }
                     else if (i.phase == TouchPhase.Stationary)
                     {
@@ -53,7 +54,6 @@ public class PlayerCam : MonoBehaviour
     {
         cameraPitch = Mathf.Clamp(cameraPitch - lookInput.y, -90f, 90f);
         cameraTransform.localRotation = Quaternion.Euler(cameraPitch, 0, 0);
-
         transform.Rotate(transform.up, lookInput.x);
     }
 }
