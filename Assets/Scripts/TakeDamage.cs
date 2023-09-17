@@ -5,12 +5,14 @@ public class TakeDamage : MonoBehaviour
     [SerializeField] private int maxHp;
     [SerializeField] private int hp;
     [SerializeField] private float timeToRespawn;
-    [SerializeField] private EnableGameObjects enableGameObjects;
+    
+    private EnableGameObjects enableGameObjects;
 
 
     private void Awake()
     {
         hp = maxHp;
+        enableGameObjects = GameObject.Find("SceneController").GetComponent<EnableGameObjects>();
     }
     public void TakeDamageQnt(int qnt)
     {

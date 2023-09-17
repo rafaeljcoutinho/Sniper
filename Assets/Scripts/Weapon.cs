@@ -11,21 +11,21 @@ public class Weapon : MonoBehaviour
     [SerializeField] private float weaponRange;
     [SerializeField] private LayerMask Mask;
     [SerializeField] private TrailRenderer BulletTrail;
-
     [SerializeField] private float zoomMultiplier;
 
     private int ammoCurrent;
     private float nextFire;
     private bool isScope;
-    
+
     private RaycastHit hit;
-    private bool Hitted;
-    private TakeDamage takeDamage;
+    private EnableGameObjects enableGameObjects;
 
     public float WeaponRange => weaponRange;
+    public int AmmoCurrent => ammoCurrent;
 
     private void Awake()
     {
+        enableGameObjects = GameObject.Find("SceneController").GetComponent<EnableGameObjects>();
         nextFire = 0;
         ammoCurrent = ammoCapacity;
         isScope = false;
@@ -66,15 +66,13 @@ public class Weapon : MonoBehaviour
             ammoCurrent--;
             if (Physics.Raycast(shootPoint.position, shootPoint.forward, out hit, weaponRange, Mask))
             {
-                Hitted = true;
                 TrailRenderer trail = Instantiate(BulletTrail, shootPoint.position, Quaternion.identity);
-                StartCoroutine(SpawnTrail(trail, hit.point));
+                enableGameObjects.SpawnTrailHitCoroutine(trail, hit.point, damage, hit);
             }
             else
             {
-                Hitted = false;
                 TrailRenderer trail = Instantiate(BulletTrail, shootPoint.position, Quaternion.identity);
-                StartCoroutine(SpawnTrail(trail, (shootPoint.position + shootPoint.forward * weaponRange)));
+                enableGameObjects.SpawnTrailCoroutine(trail, shootPoint.position + shootPoint.forward * weaponRange);
             }
 
 
@@ -88,29 +86,5 @@ public class Weapon : MonoBehaviour
         //animation
         ammoCurrent = ammoCapacity;
     }
-    
-    private IEnumerator SpawnTrail(TrailRenderer Trail, Vector3 Hit)
-    {
-        float time = 0;
-        Vector3 startPosition = Trail.transform.position;
 
-        while(time < 1)
-        {
-            Trail.transform.position = Vector3.Lerp(startPosition, Hit, time);
-            time += Time.deltaTime / Trail.time;
-
-            yield return null;
-        }
-        Trail.transform.position = Hit;
-        if (Hitted)
-        {
-            takeDamage = hit.collider.gameObject.GetComponent<TakeDamage>();
-            if (takeDamage != null)
-            {
-                takeDamage.TakeDamageQnt(damage);
-            }
-        }
-
-        Destroy(Trail.gameObject, Trail.time);
-    }
 }
