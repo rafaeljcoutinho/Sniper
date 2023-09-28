@@ -3,22 +3,21 @@ using System.Collections.Generic;
 
 public class SpawnPointController : MonoBehaviour
 {
-    private GameObject[] spawnPoints;
-    int i;
-    private Dictionary<GameObject, int> pointIndex = new Dictionary<GameObject, int>();
     [SerializeField] private GameObject[] players;
+    
+    private GameObject[] spawnPoints;
     private EnableGameObjects enableGameObjects;
-
-
+    private List<GameObject> spotsAvailable = new List<GameObject>();
+    private int newPosition;
+    private GameObject NewPositionGo;
 
     private void Awake()
     {
         enableGameObjects = GameObject.Find("SceneController").GetComponent<EnableGameObjects>();
-        i = 0;
         spawnPoints = GameObject.FindGameObjectsWithTag("SpawnPoint");
         foreach(GameObject point in spawnPoints)
         {
-            pointIndex.Add(point, 1);
+            spotsAvailable.Add(point);
         }
         for(int i=0; i<players.Length; i++)
         {
@@ -31,20 +30,14 @@ public class SpawnPointController : MonoBehaviour
 
     public void FreePosition(GameObject position)
     {
-        pointIndex[position] = 1;
+        spotsAvailable.Add(position);
     }
 
     public GameObject GetNewPosition()
     {
-        foreach (var pairKeyValue  in pointIndex)
-        {
-            if(pairKeyValue.Value == 1)
-            {
-                pointIndex[pairKeyValue.Key] = -1;
-                i--;
-                return pairKeyValue.Key;
-            }
-        }
-        return null;
+        newPosition = Random.Range(0, spotsAvailable.Count - 1);
+        NewPositionGo = spotsAvailable[newPosition].gameObject;
+        spotsAvailable.Remove(spotsAvailable[newPosition].gameObject);
+        return NewPositionGo;
     }
 }

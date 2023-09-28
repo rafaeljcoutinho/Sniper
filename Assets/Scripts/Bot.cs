@@ -10,8 +10,10 @@ public class Bot : MonoBehaviour
 
     private GameObject[] spawnPoints;
     private Vector3 targetSpot;
+    private Quaternion targetRotation;
+    private float speedRotation = 2f;
 
-    private int i = 0;
+    private int newTarget;
     private bool target;
     private float timeToChange = 0;
 
@@ -21,25 +23,31 @@ public class Bot : MonoBehaviour
     }
     private void Update()
     {
-        if(weapon.AmmoCurrent == 0)
+        transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, speedRotation * Time.deltaTime);
+        if (weapon.AmmoCurrent == 0)
         {
             weapon.Reload();
         }
         if(target == false && timeToChange < Time.time)
         {
             targetSpot = FindNextPosition();
-            timeToChange = Time.time + 2f;
+            timeToChange = Time.time + Random.Range(2,7);
         }
         else
         {
-            MoveAndShoot();
+            LookAtTargetSpot();
+            Shoot();
         }
     }
 
-    private void MoveAndShoot()
+    private void LookAtTargetSpot()
     {
-        transform.LookAt(targetSpot);
-        if(Physics.Raycast(transform.position, transform.forward, out RaycastHit hit, weapon.WeaponRange, playerLayer))
+        targetRotation = Quaternion.LookRotation(targetSpot - transform.position);
+
+    }
+    private void Shoot()
+    {
+        if (Physics.Raycast(transform.position, transform.forward, out RaycastHit hit, weapon.WeaponRange, playerLayer))
         {
             weapon.Shoot(shootPoint);
         }
@@ -50,11 +58,8 @@ public class Bot : MonoBehaviour
     }
     private Vector3 FindNextPosition()
     {
-        if (i > spawnPoints.Length - 1)
-            i = 0;
-        target = true;
-        i++;
-        return spawnPoints[i-1].transform.position;
+        newTarget = Random.Range(0, spawnPoints.Length);
+        return spawnPoints[newTarget].transform.position;
     }
 
 }

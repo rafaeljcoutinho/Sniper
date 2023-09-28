@@ -7,6 +7,7 @@ public class Weapon : MonoBehaviour
     [SerializeField] private int ammoCapacity;
     [SerializeField] private int damage;
     [SerializeField] private float timeToShoot;
+    [SerializeField] private float timeToReload;
     [SerializeField] private float distanceScope;
     [SerializeField] private float weaponRange;
     [SerializeField] private LayerMask Mask;
@@ -84,7 +85,14 @@ public class Weapon : MonoBehaviour
     public void Reload()
     {
         //animation
+        StartCoroutine(ReloadCoroutine(timeToReload));
+    }
+
+    IEnumerator ReloadCoroutine(float timeToReload)
+    {
+        yield return new WaitForSeconds(timeToReload);
         ammoCurrent = ammoCapacity;
+        yield return null;
     }
 
 }

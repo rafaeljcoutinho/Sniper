@@ -37,7 +37,6 @@ public class TakeDamage : MonoBehaviour
         enableGameObjects.ReviveAfterXSec(gameObject, timeToRespawn);
         gameObject.SetActive(false);
     }
-
         
     public void Revive()
     {

@@ -17,7 +17,7 @@ public class EnableGameObjects : MonoBehaviour
 
     IEnumerator RespawnCoroutine(GameObject go, float timeToRespawn )
     {
-        yield return new WaitForSecondsRealtime(timeToRespawn);
+        yield return new WaitForSeconds(timeToRespawn);
 
         var aux = spawnPoints.GetNewPosition();
         var takeDamage = go.GetComponent<TakeDamage>();
@@ -53,7 +53,7 @@ public class EnableGameObjects : MonoBehaviour
         }
         Trail.transform.position = HitPoint;
         takeDamage = hit.collider.gameObject.GetComponent<TakeDamage>();
-        if (takeDamage != null)
+        if (takeDamage != null && hit.collider.gameObject.activeInHierarchy)
         {
             takeDamage.TakeDamageQnt(damage);
         }

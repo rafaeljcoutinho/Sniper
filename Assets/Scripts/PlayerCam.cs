@@ -35,7 +35,7 @@ public class PlayerCam : MonoBehaviour
                 {
                     if (i.phase == TouchPhase.Moved)
                     {
-                        if(i.deltaPosition.magnitude > .1f)
+                        if(i.deltaPosition.magnitude > .1f && i.position.x > camCenter)
                             lookInput = i.deltaPosition * cameraSensitivity * zoomSlider.value * Time.deltaTime;
                     }
                     else if (i.phase == TouchPhase.Stationary)
